@@ -14,3 +14,7 @@ LINE WORKS Developer ConsoleからサーバAPIを発行する。
 [Server Token(ID登録タイプ)](https://developers.worksmobile.com/jp/document/1002002?lang=ja)
 - JWTの作成
 - Access Tokenの取得
+
+
+### 署名の検証
+[LINE Developers](https://developers.line.biz/ja/docs/messaging-api/receiving-messages/)
