@@ -15,6 +15,5 @@ LINE WORKS Developer ConsoleからサーバAPIを発行する。
 - JWTの作成
 - Access Tokenの取得
 
-
 ### 署名の検証
 [LINE Developers](https://developers.line.biz/ja/docs/messaging-api/receiving-messages/)
