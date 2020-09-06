@@ -1,2 +1,3 @@
 export SERVER_LIST_ID=""
 export SERVER_LIST_PRIVATEKEY=""
+export API_ID=""
