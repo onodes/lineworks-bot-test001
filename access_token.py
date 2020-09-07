@@ -42,9 +42,9 @@ def create_server_token(jwttoken):
         "assertion" : jwttoken
     }
 
-    response = requests.post(url=url, data=payload, headers=headers)
+    req = requests.post(url=url, data=payload, headers=headers)
     
-    body = json.loads(response.text)
+    body = json.loads(req.text)
     server_token = body["access_token"]
     
     return server_token
