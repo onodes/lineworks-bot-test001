@@ -1,3 +1,5 @@
 export SERVER_LIST_ID=""
 export SERVER_LIST_PRIVATEKEY=""
 export API_ID=""
+export BOT_NO = "" 
+export SERVER_TOKEN = ""
