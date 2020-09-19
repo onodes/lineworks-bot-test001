@@ -18,15 +18,15 @@ def create_jwt():
     secret = SERVER_LIST_PRIVATEKEY
 
     json_claim_set = {
-            "iss": iss,
-            "iat": iat,
-            "exp": exp
+           'iss': iss,
+           'iat': iat,
+           'exp': exp
         }
 
     jwttoken = jwt.encode(
         json_claim_set,
         secret,
-        algorithm="RS256")
+        algorithm='RS256')
 
     return jwttoken.decode("utf-8")
 
