@@ -128,11 +128,14 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# for MacOS
+.DS_Store
+
 # env.sh
 line_bot_env
 
 # for lambda
-.zip
+*.zip
 lineworks_bot/
 lambda_update.sh
 
