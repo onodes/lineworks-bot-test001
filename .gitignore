@@ -130,3 +130,6 @@ dmypy.json
 
 # env.sh
 line_bot_env
+
+# .zip for lambda
+.zip
