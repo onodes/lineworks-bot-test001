@@ -76,7 +76,7 @@ def lambda_handler(event, context):
     if req["type"] == "message":
         content = req["content"]
         text = content["text"]
-        res_text = text + "！！"
+        res_text = account_id + "さん" + text + "！！"
         res_content = {
             "type": "text",
             "text": res_text            
