@@ -139,3 +139,5 @@ line_bot_env
 lineworks_bot/
 lambda_update.sh
 
+# for tmp
+/tmp
