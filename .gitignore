@@ -136,7 +136,7 @@ line_bot_env
 
 # for lambda
 *.zip
-./lineworks_bot/
+./lineworks_bot
 lambda_update.sh
 
 # for tmp
